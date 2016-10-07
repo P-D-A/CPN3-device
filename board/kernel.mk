@@ -10,5 +10,5 @@ BOARD_MKBOOTIMG_ARGS := --kernel_offset $(BOARD_KERNEL_OFFSET) --ramdisk_offset 
 MTK_APPENDED_DTB_SUPPORT := yes
 TARGET_IS_64_BIT := true
 
-#TARGET_PREBUILT_KERNEL := device/coolpad/note3/prebuilt/kernel
-#BOARD_CUSTOM_BOOTIMG := true
+# Hack for building without kernel sources
+$(shell mkdir -p $(OUT)/obj/KERNEL_OBJ/usr)
