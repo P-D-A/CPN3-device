@@ -1,0 +1,8 @@
+[
+  {
+    "remote": "github",
+    "repository": "kishpatel1998/vendor_coolpad_note3",
+    "target_path": "vendor/coolpad/note3",
+    "branch": "master"
+  },
+] 
